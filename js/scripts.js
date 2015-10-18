@@ -252,7 +252,7 @@ $(window).load(function() {	//start after HTML, images have loaded
           return false;
         });
       });
-//Masonry Blog
+//Mason Blog
     var $container = $('.blog-post-holder');
     $container.isotope({
        masonry: {
@@ -277,5 +277,6 @@ $(window).load(function() {	//start after HTML, images have loaded
     //$('#parallax-2').parallax("30%", 0.1);
     /*add as necessary*/
   }
+
 
 })(jQuery);
